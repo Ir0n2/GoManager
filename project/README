@@ -1,0 +1,29 @@
+The password manager is written in go so You'll need the latest version of golang to run it or compile it yourself.
+
+I made this program entirely on the command line using vim. This program uses a clear() function which runs a bash command to clear the screen. Because of this I'm not sure if this will run on windows. If you use windows 10 or 11 you should run this in windows subsystem for linux. Mac operating systems should be fine.
+
+Linux subsystem for windows:
+https://learn.microsoft.com/en-us/windows/wsl/install 
+
+I'm not sure how to document this project so I'll just give you step by step instructions on how to use it.
+
+1. First, if you haven't, Install the go compiler here: https://go.dev/
+
+2. Run the program with "go run pass.go" or compile it with "go build pass.go"
+
+3. The manager uses menus like this 
+    0: break loop
+    1: New password
+    2: Delete password
+    3: Check Passwords
+
+
+4. It uses numbers to make selections. 0 is alway exit. If you aren't on the first menu, it will back you out to the last menu you were on.
+
+5. Basically just select a number from the list to make the selection.
+
+6. DO NOT TOUCH THE SAVE FILE. GET YOUR GRUBBY HANDS AWAY FROM THE FIRST ELEMENT OF THE SAVE FILE. The first element is the "Exit" part of the menu. When the program prints the app names to the string the "0: Exit" is the first element of the list. hence why YOU SHOULD NEVER TOUCH THE FIRST ELEMENT OF THE SAVE FILE. I CANNOT REPEAT THIS ENOUGH. 
+
+7. If you do manage to break the save file just delete all the strings from the delete, and add a new one with the app, user, and pass name "Exit".
+
+This should be all you need to know if there are any issues. If there's anymore issues you can check the source code here https://github.com/Ir0n2/GoManager
