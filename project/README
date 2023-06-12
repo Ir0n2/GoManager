@@ -22,8 +22,8 @@ I'm not sure how to document this project so I'll just give you step by step ins
 
 5. Basically just select a number from the list to make the selection.
 
-6. DO NOT TOUCH THE SAVE FILE. GET YOUR GRUBBY HANDS AWAY FROM THE FIRST ELEMENT OF THE SAVE FILE. The first element is the "Exit" part of the menu. When the program prints the app names to the string the "0: Exit" is the first element of the list. hence why YOU SHOULD NEVER TOUCH THE FIRST ELEMENT OF THE SAVE FILE. I CANNOT REPEAT THIS ENOUGH. 
+6. DO NOT TOUCH THE SAVE FILE. GET YOUR GRUBBY HANDS AWAY FROM THE FIRST ELEMENT OF THE SAVE FILE. The first element is the "Exit" part of the menu. When the program prints the app names to the screen the "0: Exit" is the first element of the list. hence why YOU SHOULD NEVER TOUCH THE FIRST ELEMENT OF THE SAVE FILE. I CANNOT REPEAT THIS ENOUGH. 
 
-7. If you do manage to break the save file just delete all the strings from the delete, and add a new one with the app, user, and pass name "Exit".
+7. If you do manage to break the save file just delete all the strings from the save file, and add a new one with the app, user, and pass name set as "Exit".
 
 This should be all you need to know if there are any issues. If there's anymore issues you can check the source code here https://github.com/Ir0n2/GoManager
